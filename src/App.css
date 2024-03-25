@@ -47,6 +47,10 @@ label {
   align-items: center;
   background-color: #232229;
 
+  & img {
+    cursor: pointer;
+  }
+
   & input {
     width: 300px;
     border: none;
