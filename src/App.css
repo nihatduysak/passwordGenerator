@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a { text-decoration: none; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #030304;
+}
+
+.language {
+  border: none;
+  background-color: transparent;
+  color: #817c92;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.generator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  & h1 {
+    color: #817c92;
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+}
+
+label {
+  color: #e6e6ea;
+}
+
+.result {
+  width: 400px;
+  display: flex;
+  padding: 10px 20px;
+  margin-bottom: 18px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232229;
+
+  & input {
+    width: 300px;
+    border: none;
+    background-color: transparent;
+    color: #e6e6ea;
+    font-size: 18px;
+    font-family: 'montserrat', sans-serif;
+  }
+
+  & button {
+    border: none;
+    background-color: transparent;
+  }
+}
+
+.generatorSelector {
+  width: 400px;
+  background-color: #232229;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+
+  & button {
+    border: 2px solid #a3ffad;
+    background-color: #a3ffad;
+    color: #030304;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  & button:hover {
+    background-color: #232229;
+    color: #a3ffad;
+  }
+}
+
+.selector {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+
+  & label {
+    cursor: pointer;
+  }
+}
+
+.selector input[type="checkbox"] {
+  appearance: none;
+  background-color: #f2f2f2;
+  display: inline-block;
+  position: relative;
+  height: 14px;
+  width: 14px;
+  transform: scale(1.5);
+}
+
+.selector input[type="checkbox"]:checked {
+  background-color: #a3ffad;
+}
+
+
+.selectorLength {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  justify-content: space-between;
+
+  & input {
+    border: none;
+    background-color: transparent;
+    color: #a3ffad;
+    font-size: 24px;
+  }
+}
