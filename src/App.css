@@ -42,7 +42,7 @@ label {
   width: 400px;
   display: flex;
   padding: 10px 20px;
-  margin-bottom: 18px;
+  margin-bottom: 6px;
   justify-content: space-between;
   align-items: center;
   background-color: #232229;
@@ -64,6 +64,16 @@ label {
     border: none;
     background-color: transparent;
   }
+}
+
+.copyText {
+  color: #a3ffad;
+  font-size: 14px;
+}
+
+.copyPW {
+  height: 30px;
+  margin-bottom: 12px;
 }
 
 .generatorSelector {
